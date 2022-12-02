@@ -1,1 +1,196 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T09:56:03.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" version="20.3.0" etag="hqGpQgUvMBJZ-juMt8Yv" type="github"><diagram id="hmVVja6S_lpLtUixddeI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-02T10:41:44.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="f-xp2P8uw7a0YZwTYSll" version="20.3.0" type="github">
+  <diagram id="hmVVja6S_lpLtUixddeI" name="第 1 页">
+    <mxGraphModel dx="1203" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xJFvrugGmrvRVojph9_I-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="330" y="40" width="140" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-19" value="" style="group" vertex="1" connectable="0" parent="xJFvrugGmrvRVojph9_I-27">
+          <mxGeometry x="-140" y="90" width="270" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-20" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;gpaas-io&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#10739e;" vertex="1" parent="xJFvrugGmrvRVojph9_I-19">
+          <mxGeometry width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-21" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=3;rounded=0;strokeColor=#6666FF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="xJFvrugGmrvRVojph9_I-19" target="xJFvrugGmrvRVojph9_I-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="990" as="sourcePoint" />
+            <mxPoint x="49" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-48" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#66B2FF;strokeWidth=4;fontSize=26;" edge="1" parent="xJFvrugGmrvRVojph9_I-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="190" as="sourcePoint" />
+            <mxPoint x="190" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-55" value="向边缘端下发云端地址，边缘端ID以及密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="xJFvrugGmrvRVojph9_I-19">
+          <mxGeometry x="70" y="290" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-56" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="xJFvrugGmrvRVojph9_I-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="440" as="sourcePoint" />
+            <mxPoint x="49" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-28" value="&lt;font style=&quot;font-size: 19px&quot; color=&quot;#ffffff&quot;&gt;kubernets&lt;br&gt;API Server&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#10739e;" vertex="1" parent="xJFvrugGmrvRVojph9_I-27">
+          <mxGeometry y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-29" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=3;rounded=0;strokeColor=#6666FF;" edge="1" parent="xJFvrugGmrvRVojph9_I-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="49" y="1080" as="sourcePoint" />
+            <mxPoint x="49" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-30" value="" style="group" vertex="1" connectable="0" parent="xJFvrugGmrvRVojph9_I-27">
+          <mxGeometry x="-280" y="90" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-31" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 23px&quot;&gt;控制台&lt;br&gt;前端&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#10739e;" vertex="1" parent="xJFvrugGmrvRVojph9_I-30">
+          <mxGeometry width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-33" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=3;rounded=0;strokeColor=#6666FF;" edge="1" parent="xJFvrugGmrvRVojph9_I-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-231" y="1090" as="sourcePoint" />
+            <mxPoint x="-231" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-43" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;Cloud&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xJFvrugGmrvRVojph9_I-27">
+          <mxGeometry x="40" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-53" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="xJFvrugGmrvRVojph9_I-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="300" as="sourcePoint" />
+            <mxPoint x="50" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="300" />
+              <mxPoint x="70" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-54" value="创建边缘信息资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="xJFvrugGmrvRVojph9_I-27">
+          <mxGeometry x="70" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-49" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#66B2FF;strokeWidth=4;fontSize=26;" edge="1" parent="xJFvrugGmrvRVojph9_I-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="420" as="sourcePoint" />
+            <mxPoint x="260" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-61" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="xJFvrugGmrvRVojph9_I-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="660" as="sourcePoint" />
+            <mxPoint x="270" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="550" y="122.93" width="110" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-37" value="&lt;font style=&quot;font-size: 19px&quot; color=&quot;#ffffff&quot;&gt;gpaas-io&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#10739e;" vertex="1" parent="xJFvrugGmrvRVojph9_I-36">
+          <mxGeometry width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-38" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=3;rounded=0;strokeColor=#6666FF;" edge="1" parent="xJFvrugGmrvRVojph9_I-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="49" y="987.0699999999999" as="sourcePoint" />
+            <mxPoint x="49" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-57" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="xJFvrugGmrvRVojph9_I-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="350" as="sourcePoint" />
+            <mxPoint x="50" y="427.07" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="350" />
+              <mxPoint x="70" y="427.07" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="680" y="130" width="110" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-40" value="&lt;font style=&quot;font-size: 19px&quot; color=&quot;#ffffff&quot;&gt;kubernets&lt;br&gt;API Server&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#10739e;" vertex="1" parent="xJFvrugGmrvRVojph9_I-39">
+          <mxGeometry x="40" y="-7.07" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-41" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=3;rounded=0;strokeColor=#6666FF;" edge="1" parent="xJFvrugGmrvRVojph9_I-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89" y="990" as="sourcePoint" />
+            <mxPoint x="89" y="62.93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=4;rounded=0;strokeColor=#33FF33;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1110" as="sourcePoint" />
+            <mxPoint x="480" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-44" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;Edge&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-45" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#66B2FF;strokeWidth=4;fontSize=26;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="260" as="sourcePoint" />
+            <mxPoint x="240" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-51" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;发起纳管边缘请求&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=26;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-52" value="创建边缘信息&lt;br&gt;请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="235" y="270" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-59" value="携带密钥以及边缘ID发起注册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="510" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-64" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="590" as="sourcePoint" />
+            <mxPoint x="240" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="590" />
+              <mxPoint x="210" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-65" value="校验密钥，生成token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="100" y="610" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-66" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="760" as="sourcePoint" />
+            <mxPoint x="770" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-67" value="更新边缘信息资源，保存云端地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="640" y="710" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-68" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="840" as="sourcePoint" />
+            <mxPoint x="770" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-69" value="监听边缘资源变化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="650" y="800" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-70" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="890" as="sourcePoint" />
+            <mxPoint x="240" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-72" value="携带Token,发起保活" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="495" y="840" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-73" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1000" as="sourcePoint" />
+            <mxPoint x="380" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJFvrugGmrvRVojph9_I-75" value="更新边缘信息状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="270" y="955" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
