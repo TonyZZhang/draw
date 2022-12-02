@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T08:44:07.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="fLAWIictPrjEqa-D-dGU" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-02T09:08:46.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="N-e4yzGnk5T8gG1tZCcP" version="20.3.0" type="github">
   <diagram id="czoSAgU3NPNLfObNdLdK" name="第 1 页">
     <mxGraphModel dx="1117" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,6 +70,24 @@
         </mxCell>
         <mxCell id="0-ui4EY68smGS95Qzv1E-22" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;监听资源变化&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;" vertex="1" parent="1">
           <mxGeometry x="150" y="590" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0-ui4EY68smGS95Qzv1E-25" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="0-ui4EY68smGS95Qzv1E-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="362" y="460" as="sourcePoint" />
+            <mxPoint x="362.4999999999999" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-ui4EY68smGS95Qzv1E-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="0-ui4EY68smGS95Qzv1E-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="362" y="470" as="sourcePoint" />
+            <mxPoint x="362.4999999999999" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-ui4EY68smGS95Qzv1E-27" value="注册、保活" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0-ui4EY68smGS95Qzv1E-28" value="下发云端地址&lt;br&gt;携带边缘ID以及密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="380" y="340" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
