@@ -1,1 +1,156 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T06:46:10.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" version="20.6.0" etag="ehFJOBp8niAhgSRvW4aC" type="github"><diagram id="3HUKC6GtO_xRCV34EYuN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-03T06:52:53.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" version="20.6.0" etag="ho4DIwyVl_BnMtT6qjiS" type="github">
+  <diagram id="0hvlFEzCTooAl0gXduiI" name="第 1 页">
+    <mxGraphModel dx="1117" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="330" y="40" width="140" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-2" value="" style="group" vertex="1" connectable="0" parent="gcEWiSbBVg2j9IMZ38af-1">
+          <mxGeometry x="-140" y="90" width="270" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-3" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;gpaas-io&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#10739e;" vertex="1" parent="gcEWiSbBVg2j9IMZ38af-2">
+          <mxGeometry width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-4" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=3;rounded=0;strokeColor=#6666FF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="gcEWiSbBVg2j9IMZ38af-2" target="gcEWiSbBVg2j9IMZ38af-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="990" as="sourcePoint" />
+            <mxPoint x="49" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#66B2FF;strokeWidth=4;fontSize=26;" edge="1" parent="gcEWiSbBVg2j9IMZ38af-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="190" as="sourcePoint" />
+            <mxPoint x="190" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-6" value="向边缘端下发取消边缘纳管的请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="gcEWiSbBVg2j9IMZ38af-2">
+          <mxGeometry x="70" y="290" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-9" value="&lt;font style=&quot;font-size: 19px&quot; color=&quot;#ffffff&quot;&gt;kubernets&lt;br&gt;API Server&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#10739e;" vertex="1" parent="gcEWiSbBVg2j9IMZ38af-1">
+          <mxGeometry y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-10" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=3;rounded=0;strokeColor=#6666FF;" edge="1" parent="gcEWiSbBVg2j9IMZ38af-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="49" y="1080" as="sourcePoint" />
+            <mxPoint x="49" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-11" value="" style="group" vertex="1" connectable="0" parent="gcEWiSbBVg2j9IMZ38af-1">
+          <mxGeometry x="-280" y="90" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-12" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 23px&quot;&gt;控制台&lt;br&gt;前端&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#10739e;" vertex="1" parent="gcEWiSbBVg2j9IMZ38af-11">
+          <mxGeometry width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-13" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=3;rounded=0;strokeColor=#6666FF;" edge="1" parent="gcEWiSbBVg2j9IMZ38af-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-231" y="1090" as="sourcePoint" />
+            <mxPoint x="-231" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-14" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;Cloud&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gcEWiSbBVg2j9IMZ38af-1">
+          <mxGeometry x="40" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-15" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="gcEWiSbBVg2j9IMZ38af-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="300" as="sourcePoint" />
+            <mxPoint x="50" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="300" />
+              <mxPoint x="70" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-16" value="删除边缘信息资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="gcEWiSbBVg2j9IMZ38af-1">
+          <mxGeometry x="70" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-17" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#66B2FF;strokeWidth=4;fontSize=26;" edge="1" parent="gcEWiSbBVg2j9IMZ38af-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="420" as="sourcePoint" />
+            <mxPoint x="260" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="550" y="122.93" width="110" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-20" value="&lt;font style=&quot;font-size: 19px&quot; color=&quot;#ffffff&quot;&gt;gpaas-io&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#10739e;" vertex="1" parent="gcEWiSbBVg2j9IMZ38af-19">
+          <mxGeometry width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-21" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=3;rounded=0;strokeColor=#6666FF;" edge="1" parent="gcEWiSbBVg2j9IMZ38af-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="49" y="987.0699999999999" as="sourcePoint" />
+            <mxPoint x="49" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-45" value="停止向云端推送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="gcEWiSbBVg2j9IMZ38af-19">
+          <mxGeometry x="-30" y="467.07" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="680" y="130" width="110" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-24" value="&lt;font style=&quot;font-size: 19px&quot; color=&quot;#ffffff&quot;&gt;k3s&lt;br&gt;API Server&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#10739e;" vertex="1" parent="gcEWiSbBVg2j9IMZ38af-23">
+          <mxGeometry x="40" y="-7.07" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-25" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=3;rounded=0;strokeColor=#6666FF;" edge="1" parent="gcEWiSbBVg2j9IMZ38af-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89" y="990" as="sourcePoint" />
+            <mxPoint x="89" y="62.93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-34" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="gcEWiSbBVg2j9IMZ38af-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="400" as="sourcePoint" />
+            <mxPoint x="90" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-35" value="更新边缘信息资源请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="gcEWiSbBVg2j9IMZ38af-23">
+          <mxGeometry x="-40" y="350" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-36" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="gcEWiSbBVg2j9IMZ38af-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="480" as="sourcePoint" />
+            <mxPoint x="90" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-37" value="监听边缘资源变化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="gcEWiSbBVg2j9IMZ38af-23">
+          <mxGeometry x="-30" y="440" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-42" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;" edge="1" parent="gcEWiSbBVg2j9IMZ38af-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="410" as="sourcePoint" />
+            <mxPoint x="90" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="410" />
+              <mxPoint x="130" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-26" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=4;rounded=0;strokeColor=#33FF33;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1110" as="sourcePoint" />
+            <mxPoint x="480" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-27" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;Edge&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-28" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#66B2FF;strokeWidth=4;fontSize=26;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="260" as="sourcePoint" />
+            <mxPoint x="240" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-29" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;删除边缘纳管请求&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=26;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-30" value="删除边缘信息&lt;br&gt;请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="235" y="270" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gcEWiSbBVg2j9IMZ38af-43" value="删除云端地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="820" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
