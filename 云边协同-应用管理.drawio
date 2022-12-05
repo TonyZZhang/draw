@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T03:26:30.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" version="20.6.0" etag="Z88uZFydw9rhIjb1lgg2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T03:28:57.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" version="20.6.0" etag="l1QN9Onjs6d7jV_HbmBR" type="github">
   <diagram id="6V7pRc7MegdE23kGbv45" name="第 1 页">
     <mxGraphModel dx="1117" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,8 +28,8 @@
         <mxCell id="QI3yWY5X6MAwbWW2xh4Q-43" value="根据边缘IP下发应用管理指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="QI3yWY5X6MAwbWW2xh4Q-39">
           <mxGeometry x="70" y="290" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QI3yWY5X6MAwbWW2xh4Q-67" value="查询边缘ID的&lt;br&gt;IP地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="QI3yWY5X6MAwbWW2xh4Q-39">
-          <mxGeometry x="57.5" y="140" width="130" height="60" as="geometry" />
+        <mxCell id="QI3yWY5X6MAwbWW2xh4Q-67" value="根据边缘ID查询&lt;br&gt;IP地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="QI3yWY5X6MAwbWW2xh4Q-39">
+          <mxGeometry x="47.5" y="140" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QI3yWY5X6MAwbWW2xh4Q-82" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#66B2FF;strokeWidth=4;fontFamily=Helvetica;fontSize=18;fontColor=default;shape=connector;dashed=1;" edge="1" parent="QI3yWY5X6MAwbWW2xh4Q-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
